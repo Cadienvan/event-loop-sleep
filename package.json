@@ -1,6 +1,6 @@
 {
   "name": "event-loop-sleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero CPU overhead, zero dependency, true event-loop blocking sleep. Based on the abandoned atomic-sleep project.",
   "main": "index.js",
   "types": "index.d.ts",
