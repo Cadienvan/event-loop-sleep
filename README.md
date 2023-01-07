@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to atomic-sleep ⏱️</h1>
+<h1 align="center">Welcome to event-loop-sleep ⏱️</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -38,7 +38,7 @@ npm test
 
 Node and Browser versions that support both `SharedArrayBuffer` and `Atomics` will have (virtually) zero CPU overhead sleep. 
 
-For Node, Atomic Sleep can provide zero CPU overhead sleep from Node 8 and up.
+For Node, Event Loop Sleep can provide zero CPU overhead sleep from Node 8 and up.
 
 For browser support see https://caniuse.com/#feat=sharedarraybuffer and https://caniuse.com/#feat=mdn-javascript_builtins_atomics.
 
