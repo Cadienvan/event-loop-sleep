@@ -7,7 +7,8 @@
   "scripts": {
     "test": "tap",
     "lint": "standard",
-    "ci": "npm run lint && npm test"
+    "ci": "npm run lint && npm test",
+    "minify": "npx terser index.js -c -m -o index.min.js"
   },
   "keywords": [
     "sleep",
