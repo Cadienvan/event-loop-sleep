@@ -4,9 +4,6 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/davidmarkclem" target="_blank">
-    <img alt="Twitter: davidmarkclem" src="https://img.shields.io/twitter/follow/davidmarkclem.svg?style=social" />
-  </a>
 </p>
 
 > Zero CPU overhead, zero dependency, true event-loop blocking sleep
@@ -50,4 +47,4 @@ For older Node versions and olders browsers we fall back to blocking the event l
 
 ---
 
-Based on the original work of [David Mark Clements](https://github.com/davidmarkclements/atomic-sleep)
+Based on the original work of [David Mark Clements](https://github.com/davidmarkclements/atomic-sleep).
