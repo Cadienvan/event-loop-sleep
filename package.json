@@ -1,0 +1,37 @@
+{
+  "name": "event-loop-sleep",
+  "version": "1.0.0",
+  "description": "Zero CPU overhead, zero dependency, true event-loop blocking sleep. Based on the abandoned atomic-sleep project.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "tap",
+    "lint": "standard",
+    "ci": "npm run lint && npm test"
+  },
+  "keywords": [
+    "sleep",
+    "pause",
+    "wait",
+    "performance",
+    "atomics",
+    "event loop",
+    "event-loop"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Michael Di Prisco <cadienvan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadienvan/event-loop-sleep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cadienvan/event-loop-sleep/issues"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tap": "^16.3.2"
+  }
+}
